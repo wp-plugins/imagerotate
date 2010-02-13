@@ -7,7 +7,7 @@
 /*
 Plugin Name: ImageRotate
 Plugin URI: http://wordpress.org/#
-Description: Replacement for GD's imagerotate() function. Some parts of the code taken from PHP.NET.
+Description: The php5-gd library on some Debian hosts doesn't include imagerotate() due to memory leaks. If you notice that rotating images does not work in your image editor, just install this plugin to supply an alternative imagerotate() function. Some parts of the code taken from PHP.NET.
 Author: Leonhardt Wille
 Version: 1.0
 Author URI: http://www.riverlabs.de

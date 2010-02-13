@@ -8,9 +8,10 @@ Stable tag: trunk
 
 Alternative implementation of GD's imagerotate() function.
 
+
 == Description ==
 
-Some servers don't support imagerotate() due to memory leaks.
+The php5-gd library on some Debian hosts doesn't include imagerotate() due to memory leaks.
 
 If you notice that rotating images does not work in your image editor, just install this plugin to supply an alternative imagerotate() function.
 
