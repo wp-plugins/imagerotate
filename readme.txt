@@ -13,7 +13,7 @@ Alternative implementation of GD's imagerotate() function.
 
 The php5-gd library on some Debian hosts doesn't include imagerotate() due to memory leaks.
 
-If you notice that rotating images does not work in your image editor (although you have Scissors installed), just install this plugin to supply an alternative imagerotate() function.
+If you notice that rotating images does not work in the image editor, just install this plugin to supply an alternative imagerotate() function.
 
 == Installation ==
 
